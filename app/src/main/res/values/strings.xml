@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">CarTrader - Polovni automobili</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="main_search_label_title">Pretraga oglasa</string>
+    <string name="main_search_button_title">Pretraži</string>
+
+    <string name="main_cars_list_label_title">Svi oglasi</string>
+
+    <string name="main_favorites_label_title">Omiljeni oglasi</string>
+
+    <string name="main_add_car_label_title">Dodavanje novog oglasa</string>
+
+    <string name="author_info">Luka Gajić - luka.gajic.17@singimail.rs</string>
+
+    <string-array name="inputManufacturers">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Citroen</item>
+        <item>Dacia</item>
+        <item>Daewoo</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Great Wall</item>
+        <item>Honda</item>
+        <item>Hyndai</item>
+    </string-array>
+
+    <string-array name="inputFuelType">
+        <item>Benzin</item>
+        <item>Dizel</item>
+        <item>TNG</item>
+        <item>CNG</item>
+        <item>Hibrid</item>
+    </string-array>
+
+    <string-array name="inputCity">
+        <item>Beograd</item>
+        <item>Novi Sad</item>
+        <item>Niš</item>
+        <item>Subotica</item>
+    </string-array>
+
+    <string-array name="inputBodyType">
+        <item>Limuzina</item>
+        <item>Hatchback</item>
+        <item>Karavan</item>
+        <item>Kabriolet</item>
+        <item>Minivan</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>Izaberite grad</item>
+    </string-array>
+
+    <string-array name="inputNumberOfDoors">
+        <item>2/3 vrata</item>
+        <item>4/5 vrata</item>
+    </string-array>
+</resources>

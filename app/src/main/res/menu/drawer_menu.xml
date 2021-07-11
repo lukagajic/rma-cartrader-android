@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_cars"
+            android:icon="@drawable/ic_car"
+            android:title="Svi oglasi" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="Pretraga oglasa" />
+        <item
+            android:id="@+id/nav_add_car"
+            android:icon="@drawable/ic_add"
+            android:title="Novi oglas" />
+        <item
+            android:id="@+id/nav_my_cars"
+            android:icon="@drawable/ic_list"
+            android:title="Moji oglasi" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite"
+            android:title="Omiljeni oglasi" />
+    </group>
+    <item android:title="Dodatne opcije">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_login"
+                android:title="Prijavite se" />
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/ic_register"
+                android:title="Registrujte se" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Odjavite se"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_author"
+                android:icon="@drawable/ic_code"
+                android:title="O autoru" />
+        </menu>
+    </item>
+</menu>
